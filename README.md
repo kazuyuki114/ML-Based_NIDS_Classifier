@@ -40,8 +40,6 @@ Confusion Matrix:
 
 Classification Report:
 
-<p align="center">
-
 | Class         | Precision | Recall | F1-score | Support |
 |---------------|-----------|--------|----------|---------|
 | **0 (benign)**| 0.81      | 0.94   | 0.87     | 56,000  |
@@ -49,8 +47,6 @@ Classification Report:
 | **accuracy**  |           |        | **0.91** | 175,341 |
 | **macro avg** | 0.89      | 0.92   | 0.90     | 175,341 |
 | **weighted avg** | 0.92   | 0.91   | 0.91     | 175,341 |
-
-</p>
 
 ### XGBoost
 Confusion Matrix:
@@ -61,8 +57,6 @@ Confusion Matrix:
 </p>
 Classifier Report:
 
-<p align="center">
-
 | Class             | Precision | Recall | F1-score | Support  |
 |-------------------|-----------|--------|----------|----------|
 | **0 (benign)**    | 0.77      | 0.98   | 0.86     | 56,000   |
@@ -70,8 +64,6 @@ Classifier Report:
 | **accuracy**      |           |        | **0.90** | 175,341  |
 | **macro avg**     | 0.88      | 0.92   | 0.89     | 175,341  |
 | **weighted avg**  | 0.92      | 0.90   | 0.90     | 175,341  |
-
-</p>
 
 ## 🧑‍💻 License
 This project is licensed under the MIT License – see the LICENSE file for details
