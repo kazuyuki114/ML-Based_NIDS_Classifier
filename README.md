@@ -33,12 +33,13 @@ UNSW-NB15: A labeled dataset of modern network traffic with 49 features and nine
 Confusion Matrix:
 
 <p align="center">
-  <img src="svm_cm.png" width="300" title="SVM Confusion Matrix">
+  <img src="svm_cm.png" width="700" title="SVM Confusion Matrix">
     <br>
   <b>SVM Confusion Matrix</b>
 </p>
 
 Classification Report:
+
 | Class         | Precision | Recall | F1-score | Support |
 |---------------|-----------|--------|----------|---------|
 | **0 (benign)**| 0.81      | 0.94   | 0.87     | 56,000  |
@@ -50,11 +51,12 @@ Classification Report:
 ### XGBoost
 Confusion Matrix:
 <p align="center">
-  <img src="xgb_cm.png" width="300" title="XGBoost Confusion Matrix">
+  <img src="xgb_cm.png" width="700" title="XGBoost Confusion Matrix">
     <br>
   <b>XGBoost Confusion Matrix</b>
 </p>
 Classifier Report:
+
 | Class             | Precision | Recall | F1-score | Support  |
 |-------------------|-----------|--------|----------|----------|
 | **0 (benign)**    | 0.77      | 0.98   | 0.86     | 56,000   |
